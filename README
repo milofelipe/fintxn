@@ -1,0 +1,18 @@
+Financial Transactions Analysis Tool
+====================================
+This is a command line Java application that analyses financial transaction records. Financial transaction records are
+loaded to memory when the application starts. Financial transaction records are loaded from a CSV file.
+
+* Uses Java 8 and Gradle
+
+To build the Jar file:
+$ gradle jar
+
+To run the test:
+$ gradle test
+
+To run the application after building:
+$ java -jar build/libs/fintxn.jar <path to input file>
+
+For example:
+$ java -jar build/libs/fintxn.jar sample_transactions.csv
